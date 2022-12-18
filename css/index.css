@@ -1518,6 +1518,7 @@ img:not([src]) {
 .img-alt {
   margin: -10px 0 10px;
   color: #858585;
+  text-indent: 0em;
 }
 .img-alt:hover {
   text-decoration: none !important;
@@ -3774,6 +3775,7 @@ h1.page-title + .tag-cloud-list {
 }
 #article-container p {
   margin: 0 0 16px;
+  text-indent: 2em;
 }
 #article-container iframe {
   margin: 0 0 20px;
@@ -4863,6 +4865,9 @@ blockquote.pullquote.right {
   margin-bottom: 0;
   padding-top: 0 !important;
   border-bottom: initial;
+}
+.note p {
+  text-indent: 0em !important;
 }
 .note p:first-child,
 .note ul:first-child,
