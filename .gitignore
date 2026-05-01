@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Hexo
+Hexo/node_modules/
+Hexo/public/
+Hexo/.deploy_git/
+Hexo/db.json
+Hexo/_multiconfig.yml
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
